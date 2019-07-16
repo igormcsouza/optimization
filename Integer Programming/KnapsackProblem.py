@@ -9,7 +9,7 @@ weights = np.array([23, 31, 29, 44, 53, 38, 63, 85, 89, 82])
 utilities = np.array([92, 57, 49, 68, 60, 43, 67, 84, 87, 72])
 
 # The variable we are solving for
-selection = cvxpy.Bool(len(weights))
+selection = cvxpy.Variable(len(weights), boolean=True)
 
 # The sum of the weights should be less than or equal to P
 weight_constraint = weights * selection <= P
