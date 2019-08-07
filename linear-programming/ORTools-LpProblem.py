@@ -1,4 +1,3 @@
-from __future__ import print_function
 from ortools.linear_solver import pywraplp
 
 # Create the linear solver with the GLOP backend.
