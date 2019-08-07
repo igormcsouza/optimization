@@ -1,7 +1,7 @@
 # Operational Research
 Package full of algorithms to do optimizations, some of them solves problems from Linear Programming, Integer Programming and Non-Linear Programming.
 
-# Tools for solving OR problems
+## Tools for solving OR problems
 
 ### Pyomo
  - Pyomo has a [Documentation](https://buildmedia.readthedocs.org/media/pdf/pyomo/latest/pyomo.pdf) so we can have help on how to write scripts.
@@ -13,3 +13,8 @@ Package full of algorithms to do optimizations, some of them solves problems fro
 
 ### ORTools from Google
  - ...
+
+## Experiments
+
+### MCPP - Multiple Container Packing Problem
+ - It called my attention for been a variant of the bin packing problem and knapsacking problem.
