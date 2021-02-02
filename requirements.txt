@@ -2,7 +2,7 @@ appdirs==1.4.3
 astroid==2.2.5
 attrs==19.1.0
 backcall==0.1.0
-bleach==3.1.4
+bleach==3.3.0
 cvxopt==1.2.3
 cvxpy==1.0.24
 decorator==4.4.0
